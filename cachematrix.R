@@ -1,3 +1,6 @@
+## create a matrix using the function makeCacheMatrix and then calculate and store the inverse 
+## using cacheSolve(my_matrix). You can display the matrix using 'name of matrix'$getInverse()
+
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
